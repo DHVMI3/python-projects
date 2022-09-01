@@ -9,4 +9,6 @@ symb = '!@#$%&^*()_-+={}[]:;<,>.?'
 
 char = lowcase + uppercase + numb + symb
 
-print("".join(random.sample(char, 8)) )
+num = int(input('Enter the number of characters: '))
+
+print("".join(random.sample(char, num)) )
